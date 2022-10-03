@@ -1,0 +1,120 @@
+body{
+    background-color: #D4DDED;
+    font-family: Verdana, Arial, sans-serif; 
+    font-size: 12px;
+    height: 95vh;
+    margin: 0%;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    justify-content: center;
+    
+}
+.conteudo{
+    display: flex;
+    width: 98%;
+}
+/* =========================.SOBRE================================ */
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    height: 55vh;
+    padding: 10px 20px;
+    line-height: 1.5em;
+    font-size: 12px;
+    text-align: center;
+}
+.sobre img{
+    width: 25%;
+}
+p{
+    margin: 0;
+}
+p span{
+    font-weight: bolder;
+    color: #B11E89;
+}
+/* =========================.LOGIN================================ */
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: 0;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8EEFA;
+    width: 90%;
+    border: 5px solid white;
+    align-items: center;
+    height: 42%;
+    margin-bottom: 2%;
+}
+.loginHead{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contaGoogle{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.loginHead, .loginBody{
+    margin-bottom: 2%;
+}
+.loginBody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.loginBody div{
+    margin-bottom: 2%;
+}
+.loginInput input{
+    width: 80%;
+    margin-bottom: 2%;
+}
+.loginLabel{
+display: flex;
+height: 90%;
+flex-direction: column;
+align-items: flex-end;
+}
+.loginInput{
+    display: flex;
+    flex-direction: column;
+}
+.loginInput button{
+    width: 30%;
+}
+
+.novaConta{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8EEFA;
+    width: 90%;
+    border: 5px solid white;
+    align-items: center;
+    height: 12%;
+    justify-content: center;
+}
+/* =========================FOOTER================================ */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #BCCDE9;
+    height: 30px;
+}
